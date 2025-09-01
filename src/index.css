@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@theme{
+    --color-custom-blue: #16235A;
+    --color-bg-color: #EAE8E1;
+    --color-custom-white: #F3F2EE;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'IRAN Sans';
+  src: url('../font/IRAN Sans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IRAN Sans';
+  src: url('../font/IRAN Sans Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IRAN Sans';
+  src: url('../font/IRAN Sans UltraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IRAN Sans';
+  src: url('../font/IRAN Sans Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IRAN Sans';
+  src: url('../font/IRAN Sans Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: 'IRAN Sans', sans-serif;
+}
