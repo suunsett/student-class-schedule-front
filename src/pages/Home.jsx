@@ -7,6 +7,8 @@ import Calendar from "../components/Calender";
 import axios from "axios";
 import Loading from "../components/Loading";
 
+
+
 function Home({ fadeIn }) {
   const icons = {
     uni: "/icons/hugeicons_university.svg",
